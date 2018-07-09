@@ -2,22 +2,40 @@ body{
     font-family: 'Lucida Sans Unicode','Lucida Sans','Lucida Grande',Arial;
     font-size: 13pt;
     color: #333333;
+    margin-left: auto;
+    margin-right: auto;
+    width: 940;
 }
 
 h1 {
-    background-image: url(.../img/sobre-backgraund.jpg);
+    background-image: url(../img/sobre-background.jpg);
+    padding: 10px;
 }
 
 h2{
     border-bottom: 2px solid #333333;
+    margin-top: 30px;
 }
 
 figure{
     background-color: #f2eded;
     border: 1px solid #ccc;
     text-align: center;
+    padding: 2px 5px;
+    margin: 30px;
+
 }
 
 figcaption{
     font-style: italic;
+}
+
+p{
+    text-align: justify;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+a{
+    color: black;
 }
