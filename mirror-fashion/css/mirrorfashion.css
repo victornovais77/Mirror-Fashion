@@ -1,22 +1,39 @@
 .conteiner{
     width: 940px;
     margin-right: auto;
-    margin-left: auto;  
+    margin-left: auto; 
 }
 
 .sacola{
     background: url(../img/sacola.png) no-repeat top right;
+    position: absolute;
     top: 0;
     right: 0;
     font-size: 14px;
-    width: 140;
+    width: 150;
     text-align: right;
     padding-right: 35px;
+    padding-top: 8px;
 }
 
 .menu-opcoes { 
-    position: relative;
+    display:inline-block;
+    position: fixed;
+    margin-left: 20px;
+    top:0;
+    right:0;
+    font-size: 20px;
+    width:100%;
+    background-color: #ddd;
+    text-align: center;
+}
 
+.menu-opcoes a{
+    color: #333;
+    text-decoration: none;
+    padding: 0px 7px;
+    border-left: 1px solid #333;
+    border-right:1px solid #ddd;
 }
 
 body{
@@ -24,4 +41,35 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.logotipo{
+    position:relative;
+    top: 20px;
+    left: 50px;
+}
 
+header{
+    position: relative;
+    margin-top: 36px;
+    margin-bottom: 20px;
+}
+
+main{
+    background-color: lightgreen;
+}
+.busca, .menu-departamentos{
+      width: 200px;
+}
+
+.busca{
+    background-color: aquamarine;
+}
+
+.menu-departamentos{
+    background-color: crimson;
+    float: left;
+}
+
+.banner{
+    background-color: orange;
+    float: right;
+}
