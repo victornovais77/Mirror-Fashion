@@ -23,7 +23,6 @@ figure{
     text-align: center;
     padding: 2px 5px;
     margin: 30px;
-
 }
 
 figcaption{
@@ -38,4 +37,28 @@ p{
 
 a{
     color: black;
+}
+
+#centro-distribuicao{
+    margin-left: auto;
+    margin-right: auto;
+    width: 550;
+    padding: 10px;
+}
+
+#rodape{
+    margin-right: 30px 0;
+    color: #777;
+    padding: 30px 0;
+}
+
+#rodape img{
+    margin-right: 30 px;
+    vertical-align: middle;
+    width: 94px;
+}
+
+#familia-pelho{
+    float: right;
+    margin: 0 0 10px 10px;
 }
