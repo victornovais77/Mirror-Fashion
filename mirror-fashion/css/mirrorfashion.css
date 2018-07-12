@@ -215,23 +215,22 @@ footer .social{
 
 @media (max-width:768px){
     .conteiner{
-        width: 98%;
+         width: 98%;
+         margin-right: auto;
+         margin-left: auto; 
     }
 
     header{
         position: relative;
-        margin-top: 5px;
-        margin-bottom: 5px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        top: 11px;
     }
 
-    header	h1	{
-        text-align:	left;
-}
     .menu-opcoes { 
         display:inline-block;
         position: fixed;
-        margin-left: 20px;
-        top:0;
+        top:0px;
         right:0;
         font-size: 15px;
         width: 100%;
@@ -239,7 +238,6 @@ footer .social{
         margin-right: auto;
         background-color: #333;
         text-align: center;
-        margin-bottom: 10px;
     }
     .menu-opcoes a{
         color: #ddd;
@@ -247,5 +245,19 @@ footer .social{
         border-left: 1px solid #333;
         border-right:1px solid #ddd;
     }
+
+    header	h1	{
+            margin:	10px	0;
+    }
+
+    header
+    .menu-departamentos	{
+            padding-bottom:	10px;
+            margin-bottom:	10px;
+    }
+    .menu-departamentos	nav	>	ul	{
+            column-count:	2;
+    }
+}
 
 }

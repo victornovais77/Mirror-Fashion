@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css" media>
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="display-4">Ótima Escolha</h1>
+                    <p class="lead">Obrigado por compar com a Mirror Fashion!
+                        <br> preencha seus dados para finalizar a compra</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>Sua compra é:</h2>
+                            <img src="img/produtos/foto1-verde.png" alt class="card-img-top mb-3">
+                        </div>
+                        <div class="card-body">
+                            <dl>
+                                <dt>Produto</dt>
+                                <dd>Fuzzy Cardigan</dd>
+
+                                <dt>Cor</dt>
+                                <dd>Verde</dd>
+
+                                <dt>Tamanho</dt>
+                                <dd>38</dd>
+
+                                <dt>Valor</dt>
+                                <dd>R$ 140,00</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <form>
+                        <fieldset>
+                            <legend>Dados Pessoais</legend>
+                            <div>
+                                <label for="nomePessoal">Nome:</label>
+                                <input id="nomePessoal" type="text" name="nome" class="form-control" placeholder="EX: Digite seu Nome">
+                            </div>
+
+                            <div>
+                                <label for="EmailPessoal">E-mail:</label>
+                                <input id="EmailPessoal" type="email" name="email" class="form-control" placeholder="Digite seu E-mail" placeholder="E_mail">
+
+                            </div>
+
+
+                            <div>
+                                <label for="CPFPessoal">CPF:</label>
+                                <input type="text" id=CPFPessoal type="text" name="CPF" class="form-control" placeholder="EX: 999.999.999.99">
+
+                            </div>
+                        </fieldset>
+
+                        <fildset>
+                            <legend>Dados do Cartao</legend>
+                            <div>
+                                <label for="CPFPessoal">Numero do Cartao:</label>
+                                <input id=CPFPessoal type="text" name="CartaoPessoal" class="form-control" placeholder="EX: 123.1234.123">
+
+                            </div>
+
+                            <div class="form-group">
+                                <label for="CartaoCVVCheckout">Validade do Cartao:</label>
+                                <input id=CartaoCVVCheckout type="month" name="cartaoCVV" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="BandeiraCheckout">Bandeira:</label>
+                                <select name="BandeiraCheckout " id="BandeiraCheckout ">
+                                    <option selected disabled>Selecione uma Bandeira</option>
+                                    <option value="1">Visa</option>
+                                    <option value="2">MasterCard</option>
+                                </select>
+
+                            </div>
+                        </fildset>
+
+                        <button type="submit" class="btn btn-success btn-lg btn-block">
+                            <span class="oi oi-thumb-up" title="joinha"></span>
+                            Confirme o Pedido</button>
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
